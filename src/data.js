@@ -1,111 +1,84 @@
 const Fooddata = [
     {
         id: 1,
-        rname: "Massala Theoryy",
-        imgdata: "https://b.zmtcdn.com/data/pictures/9/18857339/8f53919f1175c08cf0f0371b73704f9b_o2_featured_v2.jpg?output-format=webp",
-        address: "North Indian, Biryani, Mughlai",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "Singara With Cha",
+        imgdata: "https://i.ytimg.com/vi/6Is7HD3RMeI/maxresdefault.jpg",
         somedata: " 1175 + order placed from here recently",
-        price: "₹350 for one",
+        price: "40 Taka",
         rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"punjabi"
+        category:"combo"
     },
     {
         id: 2,
-        rname: "Jugaadi Adda",
-        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/19295245/089cbcf1d3307542c72f77272556b28b_o2_featured_v2.jpg?output-format=webp",
-        address: "Street Food",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "King Burger",
+        imgdata: "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/master/pass/Smashburger-recipe-120219.jpg",
         somedata: " 2525 + order placed from here recently",
-        price: "₹25 for one",
+        price: "180 Taka",
         rating: "3.9",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"vadapav"
+        category:"burger"
     },
     {
         id: 3,
         rname: "La Milano Pizzeria",
         imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/19708611/10f90d4a69678d98662514d173b29665_o2_featured_v2.jpg",
-        address: "Pizza, Fast Food, Pasta",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
         somedata: " 650 + order placed from here recently",
-        price: "₹70 for one",
+        price: "250 Taka",
         rating: "4.2",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Pizza"
+        category:"pizza"
     },
     {
         id: 4,
-        rname: "Momoman",
+        rname: "Momo With Noodles",
         imgdata: "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
-        address: "Momos",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
         somedata: " 300 + order placed from here recently",
-        price: "₹70 for one",
+        price: "280 Taka",
         rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Momos"
+        category:"momos"
     },
     {
         id: 5,
-        rname: "Jassi De Parathe",
-        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110225/3978e28854b7496dbef9496546734811_o2_featured_v2.jpg",
-        address: "North Indian",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "Chamuca With Cha",
+        imgdata: "https://cosmosgroup.sgp1.cdn.digitaloceanspaces.com/news/5246093.webp",
         somedata: "1050 + order placed from here recently",
-        price: "₹210 for one",
+        price: "45 Taka",
         rating: "4.0",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"punjabi"
+        category:"combo"
     },
     {
         id: 6,
-        rname: "Anjoy Latenight Meals",
-        imgdata: "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
-        address: "Wraps FastFood, Chines",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "Twin Shawarma",
+        imgdata: "https://images.deliveryhero.io/image/fd-bd/LH/s4vg-hero.jpg",
         somedata: " 1100 + order placed from here recently",
-        price: "₹100 for one",
+        price: "200 Taka",
         rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Frankie"
+        category:"shawarma"
     },
     {
         id: 7,
-        rname: "Hocco Eatery",
-        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110155/811c01a5430d50d3260f77917da99e12_o2_featured_v2.jpg",
-        address: "North Indian, Fast Food",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "Cha With Biscuits",
+        imgdata: "http://stockmedia.cc/food/coffee_biscuits.jpg",
         somedata: "500 + order placed from here recently",
-        price: "₹300 for one",
+        price: "30 Taka",
         rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"punjabi"
+        category:"combo"
     },
     {
         id: 8,
-        rname: "Chai Wai",
-        imgdata: "https://b.zmtcdn.com/data/pictures/3/18514413/0a17b72e9fec52a3ca736f4c2ea3646f_o2_featured_v2.jpg",
-        address: "Tea, Coffee, Shake, Beverages",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "Sandwich Hub",
+        imgdata: "https://theyummydelights.com/wp-content/uploads/2022/04/shredded-chicken-sandwich.jpg",
         somedata: "500 + order placed from here recently",
-        price: "₹100 for one",
+        price: "110 Taka",
         rating: "3.2",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Chai"
+        category:"sandwich"
     },
     {
         id: 9,
-        rname: "HL Frankie",
-        imgdata: "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",
-        address: "Burger, Sandwich, Fast Food",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        rname: "Regular Shawarma",
+        imgdata: "https://www.masala.tv/wp-content/uploads/2021/06/Beef-Shawarmaa.jpg",
         somedata: "2525 + order placed from here recently",
-        price: "₹100 for one",
+        price: "70 Taka",
         rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-        category:"Frankie"
+        category:"shawarma"
     },
 ];
 
