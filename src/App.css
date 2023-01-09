@@ -38,36 +38,6 @@ nav li:hover {
   color: white;
 }
 
-@media screen and (max-width: 760px) {
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  nav {
-    background: rgb(235, 155, 124);
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  nav li {
-    margin: 10px;
-    padding: 10px 5px;
-    border-radius: 5px;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  .displayData {
-    padding: 100px 0;
-  }
-  
-
-}
-
-
 
 .displayData {
   margin: 20px 0;
@@ -107,4 +77,47 @@ nav li:hover {
 
 .nameAndPrice p {
   font-size: 18px;
+}
+
+
+
+
+/* responsiveness  */
+
+@media screen and (max-width: 760px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    background: rgb(235, 155, 124);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav li {
+    margin: 8px;
+    padding: 10px 5px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .displayData {
+    padding: 100px 0;
+  }
+
+  .main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+
 }
